@@ -23,8 +23,7 @@ namespace NameDllCons
             Console.ReadKey(true);
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "dll files (*.dll)|*.dll";
-            ofd.FilterIndex = 1;
-            // var files =  ofd.FileNames;
+            ofd.FilterIndex = 1;            
             ofd.ShowDialog();
             //string path ;
             return path = ofd.FileName;
